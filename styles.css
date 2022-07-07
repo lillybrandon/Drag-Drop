@@ -18,6 +18,8 @@
      cursor: pointer;
      border: 4px dashed #009578;
      border-radius: 10px;
+     margin: 0 auto;
+     margin-top: 230px;
 }
 
 .drop__zone--over {
@@ -49,4 +51,19 @@
     background: rgba(0, 0, 0, 0.75);
     font-size: 20px;
     text-align: center;
+}
+
+.submit {
+    margin-left: 680px;
+    margin-top: 24px;
+    font-size: 20px;
+    padding: 4px;
+    width: 80px;
+    border-radius: 15%;
+}
+
+.submit:hover {
+    color: #fff;
+    background-color: #009578;
+    opacity: .8;
 }
