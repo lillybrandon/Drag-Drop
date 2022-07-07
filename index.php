@@ -1,3 +1,9 @@
+<?php include "upload.php"; ?>
+
+<style>
+<?php include "styles.css"; ?>
+</style>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,12 +15,12 @@
 </head>
 <body>
     
-    <form action="" method="post" enctype="multipart/form-data">
+    <form action="upload.php" method="POST" enctype="multipart/form-data">
         <div class="drop__zone">
             <span class="drop__zone--prompt">Drop file here or click to upload</span>
-            <input type="file" name="myFile" class="drop__zone--input" multiple>
+            <input type="file" name="file" class="drop__zone--input" multiple>
         </div>
-        
+        <input type="submit" name="submit" value="Submit" class="submit">
     </form>
 
     <script src="main.js"></script>
