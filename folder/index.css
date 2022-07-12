@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 400px;
+    height: 400px;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 500px;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    height: 100vh;
+}
+
+.btn {
+    width: 150px;
+    height: 75px;
+    background-color: #333;
+    color: #fff;
+    font-size: 16px;
+    margin: 0 auto;
+}
+
+.img__container {
+    width: 100%;
+    height: calc(100vh - 75px);
+    border: 1px solid red;
+}
+
+img {
+    padding: 70px 0;
+    text-align: center;
+    height: 500px;
+    width: 370px;
+}
